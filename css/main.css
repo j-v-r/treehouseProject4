@@ -1,0 +1,60 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/*****
+SEARCH BOX
+*****/
+header form {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+header form input {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  width: 20rem;
+  height: 2rem;
+  padding-left: 1rem;
+  font-size: 16px;
+}
+
+/*****
+GALLERY
+*****/
+p {
+  display: none;
+}
+
+section div {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+/*****
+MEDIA QUERIES
+*****/
+@media only screen and (min-width: 700px) {
+  section div {
+    float: left;
+    width: 50%;
+  }
+
+  header form input {
+    width: 40rem;
+  }
+
+  section {
+    margin: 0 4rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    section div {
+      float: left;
+      width: 25%;
+      margin: 2rem 0;
+    }
+
+}
